@@ -565,7 +565,7 @@ max-width: 264px;
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     align-items: center;
     align-items: flex-end;
     letter-spacing: 0.04em;
