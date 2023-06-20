@@ -344,17 +344,19 @@
                     </li>
                 </ul>
             </div>
-            <form type="" class="footer-form" name="subscribe">
+            <div class="footer-form">
+            <form type="email" class="footer-form" name="subscribe">
                 <div class="footer-subscribe-container">
-                    <label for="footer-subscribe" class="footer-subscribe-label" name="subscribe">Subscribe</label>
+                    <p class="footer-form-title">Subscribe</p>
                     <input id="footer-subscribe" class="footer-input" name="footer-input" type="email" placeholder="E-mail" />
-                </div>
                 <button type="submit" class="footer-btn-subscribe">Subscribe
                     <svg class="btn-subscribe-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-icon-send"></use>
                     </svg>
                 </button>
+                </div>
             </form>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -367,39 +369,39 @@
             <p class="modal-form-title">Leave your contacts and we will call you back</p>
             <form class="modal-form" name="modal-subscribe">
                 <div class="modal-form-field">
-                    <label for="username" class="modal-label">Name</label>
+                    <label for="user-name" class="modal-label">Name</label>
                     <div class="input-wrap">
-                        <input id="username" name="username" class="modal-input" required type="text" placeholder="" />
-                        <svg class="form-icons" width="18" height="18">
+                        <input id="user-name" name="username" class="modal-input" required type="text" placeholder="" />
+                        <svg class="form-icons" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="modal-form-field">
-                    <label class="modal-label">Phone</label>
+                    <label for="user-mail" class="modal-label">Phone</label>
                     <div class="input-wrap">
-                        <input name="usermail" class="modal-input" required type="tel" placeholder="" />
+                        <input id="user-mail" name="usermail" class="modal-input" required type="tel" placeholder="" />
                         <svg class="form-icons" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
                     </div>
                     </div>
                 <div class="modal-form-field">
-                    <label class="modal-label">Email</label>
+                    <label for="user-tel" class="modal-label">Email</label>
                     <div class="input-wrap">
-                        <input name="usertel" class="modal-input" type="email" placeholder="" />
+                        <input id="user-tel" name="usertel" class="modal-input" required type="email" placeholder="" />
                         <svg class="form-icons" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="modal-form-textarea">
-                    <label for="textarea-comment" class="modal-label">Comment</label>
-                    <textarea class="modal-textarea" id="textarea-comment" name="comment" placeholder="Text input"></textarea>
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-form-checkbox">
-                    <input class="input-checkbox visually-hidden" name="checkbox-policy" id="checkbox-policy" value="true" type="checkbox" />
-                    <label for="checkbox-policy" class="check-text"><span>
+                    <input class="input-checkbox visually-hidden" name="user-privacy" id="user-privacy" value="true" type="checkbox" />
+                    <label for="user-privacy" class="check-text"><span class="label-span-icon">
                         <svg class="check-icon" width="10" height="8">
                             <use href="./images/icons.svg#icon-checkbox-click"></use>
                         </svg>
