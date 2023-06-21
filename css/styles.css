@@ -532,15 +532,13 @@ max-width: 264px;
 
 .footer-form {
     display: flex;
-    margin-left: 80px;
     gap: 24px;
     
 }
 
 
-.footer-subscribe-container{
-    
-    
+.footer-form-container{
+    margin-left: 80px;
 }
 
 .footer-form-title{
@@ -552,7 +550,7 @@ max-width: 264px;
     letter-spacing: 0.02em;
     color: var(--primary-white-color);
     margin-bottom: 16px;
-    margin-left: 80px;
+    
 }
 
 .footer-input {
